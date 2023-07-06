@@ -17,17 +17,18 @@
 </head>
 <body>
     <header>
-        <h1 class="d-flex justify-content-center d-flex">Yoan BUSCAIL</h1>
-        <p class="tracking-in-expand d-flex justify-content-center d-flex" id="metier">Développeur Web full stack</p>
-        <nav>
-            <ul class="navBar">
-                <li class="navBar__link">A propos de moi</li>
-                <li class="navBar__link">Formation</li>
-                <li class="navBar__link">Expériences</li>
-                <li class="navBar__link">Compétences</li>
-                <li class="navBar__link">Contact</li>
-            </ul>
+        <nav class="navbar__container">
+        <form class="form-inline">
+            <button class="btn navBar__link" type="button">A propos de moi</button>
+            <button class="navBar__link" type="button">Formation</button>
+            <button class="navBar__link" type="button">Expériences</button>
+            <button class="navBar__link" type="button">Compétences</button>
+            <button class="navBar__link" type="button">Contact</button>
+        </form>
         </nav>
+        <h1 class="d-flex justify-content-center d-flex">Yoan BUSCAIL</h1>
+        <p class="tracking-in-expand d-flex justify-content-center d-flex" id="metier">Développeur Web<br> full stack</p>
+
     </header>
 
     <main>
